@@ -1,0 +1,53 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header Styles */
+  header {
+    background: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #f4a261;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 50px;
+    margin: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Contact Section Styles */
+  #contact a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  #contact a:hover {
+    color: #f4a261;
+  }
+  
+  /* Icon Styling */
+  #contact img {
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  
