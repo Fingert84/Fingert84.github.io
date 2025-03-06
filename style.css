@@ -1,53 +1,151 @@
-/* Basic Styling */
+/* Global Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-  }
-  
-  /* Header Styles */
-  header {
+    color: #333;
+}
+
+/* Navigation Bar */
+/* Center the content inside the header */
+header {
     background: #333;
     color: white;
-    padding: 10px;
-  }
-  
-  nav a {
+    padding: 5px 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navigation links styling */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 0px;
+}
+
+nav a {
     color: white;
-    margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
-  }
-  
-  nav a:hover {
+    padding: 10px 15px;
+}
+
+nav a:hover {
     color: #f4a261;
-  }
-  
-  /* Section Styling */
-  section {
+}
+
+/* Hero Section */
+#hero {
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    color: white;
+    padding: 100px 20px;
+}
+.hero-content {
+    max-width: 600px;
+    margin: auto;
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.highlight {
+    color: #f4a261;
+}
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #f4a261;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    background: #e76f51;
+}
+
+/* Sections */
+section {
     padding: 50px;
     margin: 20px;
     background: white;
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Contact Section Styles */
-  #contact a {
+}
+
+/* Skills */
+.skills-list dt {
+    font-weight: bold;
+    color: #4e54c8;
+    margin-top: 10px;
+}
+.skills-list dd {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+.skills-list dt span {
+    background: #4e54c8;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.skills-list dd span {
+    display: block;
+    padding: 5px;
+    color: #333;
+}
+
+/* Projects */
+.project-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.project-card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+.project-card h3 {
+    margin-bottom: 10px;
+}
+
+/* Contact */
+#contact a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
-  }
-  
-  #contact a:hover {
+}
+#contact a:hover {
     color: #f4a261;
-  }
-  
-  /* Icon Styling */
-  #contact img {
-    vertical-align: middle;
+}
+.social-links img {
+    width: 30px;
+    height: 30px;
     margin-right: 5px;
-  }
-  
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
